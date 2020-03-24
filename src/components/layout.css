@@ -1,3 +1,17 @@
+.container {
+  margin: 10px auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  padding: 80px;
+}
+.highlight{
+  background-color: #f56bff;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -43,8 +57,10 @@ template {
 }
 a {
   background-color: transparent;
+  text-decoration: none;
   -webkit-text-decoration-skip: objects;
   color: #f56bff
+  
 }
 a:active,
 a:hover {
@@ -625,4 +641,14 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: rgb(255, 255, 255);
+  background: #f56bff;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: #f56bff;
 }
