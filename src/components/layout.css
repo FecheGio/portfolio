@@ -11,7 +11,7 @@
 }
 .highlight{
   padding-top: 0;
-  background-color: #f56bff;
+  background-color: #f235ff;
 }
 
 .card {
@@ -31,6 +31,38 @@
   padding: 2px 16px;
 }
 
+/*primero en el móvil (mobile first)*/
+nav {
+  display: flex;
+  font-weight: bold;
+  padding: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li a {
+  color: white;
+  font-size: 1.17em;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+nav li a:hover {
+  background: #f235ff;
+  color: white;
+}
+
+@media screen and (min-width: 480px) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+} 
+
 html {
   font-family: Poppins, sans-serif;
   -ms-text-size-adjust: 100%;
@@ -44,13 +76,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .h-container{
-  display: flex;
+  margin: auto;
+  width: 100%;
+  /* display: flex;
   justify-content: space-between;
+  flex-direction: row; */
 }
-.tabs{
 
-  
-}
 footer{
 
 }
@@ -258,7 +290,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  color: #ebebeb;
+  color: white;
 }
 img {
   max-width: 100%;
@@ -287,7 +319,7 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
-  color: #ebebeb;
+  color: white;
 }
 h2 {
   margin-left: 0;
