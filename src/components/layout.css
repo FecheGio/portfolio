@@ -11,7 +11,6 @@
 }
 .highlight{
   padding-top: 0;
-
   background-color: #f56bff;
 }
 
@@ -44,9 +43,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.h-container{
+  display: flex;
+  justify-content: space-between;
+}
+.tabs{
+
+  
+}
 footer{
 
 }
+header,
 article,
 aside,
 details,

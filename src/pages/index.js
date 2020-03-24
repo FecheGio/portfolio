@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <div class="container">
       <div class="content">
-        <SEO title="Home" />
+        <SEO title="Fede Giobergia" />
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
           <Image />
         </div>
