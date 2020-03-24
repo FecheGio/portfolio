@@ -24,9 +24,22 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {`Publicaciones`}
+          {`PUBLICACIONES`}
         </Link>
       </h3>
+
+      <h3 style={{ margin: 0 }}>
+        <Link
+          to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          {`PUBLICACIONES`}
+        </Link>
+      </h3>
+
     </div>
   </header>
 )
