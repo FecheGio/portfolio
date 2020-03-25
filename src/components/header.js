@@ -46,7 +46,7 @@ const Header = ({ siteTitle }) => (
       <nav>
         <ul>
           <li><a href="#">PUBLICACIONES</a></li>
-          <li><a href="#">EL JUGLAR</a></li>
+          <li><a href="/page-2">EL JUGLAR</a></li>
           <li><a href="#">CONTACTO</a></li>
         </ul>
       </nav>

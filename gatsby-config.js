@@ -5,6 +5,12 @@ module.exports = {
     author: `@FecheGio`
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://gmail.us5.list-manage.com/subscribe/post?u=15e956080a41f301c18b679b9&amp;id=8bb8acd106', // add your MC list endpoint here; see instructions below
+      },
+    }
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
