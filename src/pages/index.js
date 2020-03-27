@@ -14,19 +14,15 @@ const IndexPage = () => (
           <Image />
         </div>
         <h1> <span class="highlight">Fede Giobergia</span></h1>
-        <p>Nostrud anim occaecat sunt anim tempor adipisicing cillum in laboris. Nulla aute commodo occaecat nisi commodo anim adipisicing. Proident do ullamco excepteur laborum qui veniam consectetur. Fugiat nulla consequat ullamco eu. Nisi anim esse et ipsum in dolor aute nulla elit ex deserunt. Irure nisi ex cupidatat velit aute excepteur fugiat cillum veniam id eu voluptate. Amet proident occaecat cillum fugiat eiusmod laborum irure velit minim occaecat nulla anim.</p>
-        <p>Now go build something great.</p>
+        <h3>¿Quién soy?</h3>
 
+        <p>Soy Fede. Soy estudiante de comunicación y hago trabajo freelance de community manager y redactor de contenido. Trabajé casi dos años de desarrollador full stack, pero siempre me incliné al front end. También formé parte de grupos de desarrollo de videojuegos, como programador, como modelador 3D y como guionista. Me apasiona la tecnología y la literatura. De vez en cuando publico en Revista Mate.</p>
 
-        <div class="card">
-          <div class="container-card">
-            <div style={{borderRadius: `15px`}}>
-              <Image />
-            </div>
-            <h4><b>Sarasa</b></h4>
-          </div>
-        </div>
-
+        <h3>¿Qué hago?</h3>
+        <p>En mi tarea de community manager hago manejo de redes sociales, fotos, ediciones de video, flyers. Como redactor de contenido hago comunicación institucional, redacción creativa y corrección de textos. Por mi parte escribí algunas publicaciones, periodísticas y literarias, para Revista Mate.</p>
+        
+        <h3>Mi newsletter</h3>
+        <p></p>
         {/* <Link to="/page-2/">Go to page 2</Link> */}
       </div>
     </div>
