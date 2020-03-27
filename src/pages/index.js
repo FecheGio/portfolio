@@ -1,5 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -19,10 +19,10 @@ const IndexPage = () => (
         <p>Soy Fede. Soy estudiante de comunicación y hago trabajo freelance de community manager y redactor de contenido. Trabajé casi dos años de desarrollador full stack, pero siempre me incliné al front end. También formé parte de grupos de desarrollo de videojuegos, como programador, como modelador 3D y como guionista. Me apasiona la tecnología y la literatura. De vez en cuando publico en Revista Mate.</p>
 
         <h3>¿Qué hago?</h3>
-        <p>En mi tarea de community manager hago manejo de redes sociales, fotos, ediciones de video, flyers. Como redactor de contenido hago comunicación institucional, redacción creativa y corrección de textos. Por mi parte escribí algunas publicaciones, periodísticas y literarias, para Revista Mate.</p>
+        <p>En mi tarea de community manager hago manejo de redes sociales, fotos, ediciones de video, flyers. Como redactor de contenido hago comunicación institucional, redacción creativa y corrección de textos. Por mi parte escribí algunas publicaciones, periodísticas y literarias, para <a href="https://www.revistamate.com.ar/">Revista Mate</a>.</p>
         
         <h3>Mi newsletter</h3>
-        <p></p>
+        <p>Mi pasión es escribir, me gustaría poder vivir de eso en un futuro. Como no se me presentas demasiadas oportunidades, decidí encarar mi propio proyecto personal, El Juglar. Es un newsletter literario donde todos los 29 envio una pieza literaria. Puede ser un cuento, un relato, poesía o lo que sea que ese mes me salga escribir. Podés encontrar mas data en <Link to="/page-2/" target="_blank">la página dedicada a este proyecto</Link>.</p>
         {/* <Link to="/page-2/">Go to page 2</Link> */}
       </div>
     </div>
