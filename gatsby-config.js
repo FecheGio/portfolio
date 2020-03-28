@@ -5,6 +5,7 @@ module.exports = {
     author: `@FecheGio`
   },
   plugins: [
+    `gatsby-plugin-sass`,
     // {
     //   resolve: 'gatsby-plugin-mailchimp',
     //   options: {

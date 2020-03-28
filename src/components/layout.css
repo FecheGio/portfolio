@@ -85,7 +85,26 @@ nav li a:hover {
     display: flex;
     justify-content: flex-end;
   }
-} 
+}
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+
 
 html {
   font-family: Poppins, sans-serif;

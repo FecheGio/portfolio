@@ -1,7 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import addToMailchimp from 'gatsby-plugin-mailchimp'
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -20,7 +17,7 @@ const SecondPage = () => (
         <p>Un juglar era un personaje la edad media que viajaba por las ciudades e iba por las calles y tabernas contando historias, recitando poesía y cantando canciones sobre las hazañas de los caballeros y héroes de la época. Retomando la figura del juglar, asumo el rol de un juglar moderno y todos los meses me aparezco por tu mail contando historias.</p>
 
         <h3>¿Dónde me suscribo?</h3>
-        <a href="#" class="button">SUSCRIBITE</a>
+        <a href="https://gmail.us5.list-manage.com/subscribe?u=15e956080a41f301c18b679b9&id=8bb8acd106" class="button">SUSCRIBITE</a>
 
         <h3>¿Puedo aportar $?</h3>
         <p>Eh... por el momento me da mucha vergüenza. Peeeero...</p>
