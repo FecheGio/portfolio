@@ -25,6 +25,7 @@
 	font-weight:bold;
 	padding:16px 31px;
   text-decoration:none;
+  margin-right: 1.45rem;
   margin-bottom: 1.45rem
 }
 .button:hover {
@@ -104,6 +105,13 @@ body {
   /* display: flex;
   justify-content: space-between;
   flex-direction: row; */
+}
+
+.b-container{
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: space-between;
 }
 
 footer{

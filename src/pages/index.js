@@ -22,7 +22,7 @@ const IndexPage = () => (
         <p>En mi tarea de community manager hago manejo de redes sociales, fotos, ediciones de video, flyers. Como redactor de contenido hago comunicación institucional, redacción creativa y corrección de textos. Por mi parte escribí algunas publicaciones, periodísticas y literarias, para <a href="https://www.revistamate.com.ar/">Revista Mate</a>.</p>
         
         <h3>Mi newsletter</h3>
-        <p>Mi pasión es escribir, me gustaría poder vivir de eso en un futuro. Como no se me presentas demasiadas oportunidades, decidí encarar mi propio proyecto personal, El Juglar. Es un newsletter literario donde todos los 29 envio una pieza literaria. Puede ser un cuento, un relato, poesía o lo que sea que ese mes me salga escribir. Podés encontrar mas data en <Link to="/el-juglar/" target="_blank">la página dedicada a este proyecto</Link>.</p>
+        <p>Mi pasión es escribir, me gustaría poder vivir de eso en un futuro. Como no se me presentan demasiadas oportunidades, decidí encarar mi propio proyecto personal, El Juglar. Es un newsletter literario donde todos los 29 envio una pieza literaria. Puede ser un cuento, un relato, poesía o lo que sea que ese mes me salga escribir. Podés encontrar mas data en <Link to="/el-juglar/" target="_blank">la página dedicada a este proyecto</Link>.</p>
         {/* <Link to="/page-2/">Go to page 2</Link> */}
       </div>
     </div>
