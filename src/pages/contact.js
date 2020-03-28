@@ -15,8 +15,8 @@ const ContactPage = () => (
         <h3>Podés contactarme por los siguientes canales:</h3>
 
         <a href="mailto:fedegiobergia@gmail.com" class="button">  EMAIL</a>
-        <a href="instagram.com/fechegio" class="button">  INSTAGRAM</a>
-        <a href="twitter.com/fechegio" class="button">  TWITTER</a>
+        <a href="https://instagram.com/fechegio" class="button">  INSTAGRAM</a>
+        <a href="https://twitter.com/fechegio" class="button">  TWITTER</a>
 
 
         {/* <Link to="/page-2/">Go to page 2</Link> */}
