@@ -70,8 +70,8 @@ function SEO({ description, lang, meta, title }) {
       ]
       .concat(meta)}
     >
-      <meta property="og:image" content="images/fechesinfondo.png"></meta>
-      <link rel="icon" type="image/png" href="images/fechesinfondo.ico"/>
+      {/* <meta property="og:image" content="images/fechesinfondo.png"></meta> */}
+      <link rel="icon" href="images/fechesinfondo.ico" type="image/x-icon"/>
     </Helmet>
   )
 }
@@ -87,6 +87,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  image: PropTypes.string
 }
 
 export default SEO
