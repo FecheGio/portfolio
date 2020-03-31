@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
       <nav>
         <ul>
           <li><a href="/">INICIO</a></li>
-          <li><a href="#">PUBLICACIONES</a></li>
+          <li><a href="/publicaciones/">PUBLICACIONES</a></li>
           <li><a href="/el-juglar/">EL JUGLAR</a></li>
           <li><a href="/contact/">CONTACTO</a></li>
         </ul>
