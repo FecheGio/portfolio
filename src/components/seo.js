@@ -70,6 +70,7 @@ function SEO({ description, lang, meta, title }) {
       ]
       .concat(meta)}
     >
+      <meta property="og:image" content="images/fechesinfondo.png"></meta>
       <link rel="icon" type="image/png" href="images/fechesinfondo.ico"/>
     </Helmet>
   )
