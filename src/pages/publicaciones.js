@@ -15,7 +15,21 @@ const PublicationsPage = () => {
                   }
                 }
               }
+            pichon: file(relativePath: { eq: "pichon-1-1024x628.jpg" }) {
+                childImageSharp {
+                  fluid(maxWidth: 1000) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
             }
+            pescado: file(relativePath: { eq: "pescado-idioma.jpg" }) {
+                childImageSharp {
+                  fluid(maxWidth: 1000) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+            }
+        }
     `)
     return(
         <Layout>
@@ -28,15 +42,60 @@ const PublicationsPage = () => {
                     <h3>Mis publicaciones en distintos medios:</h3>
 
                     <div class="card">
-                            <Img 
-                                fluid={data.terraplanismo.childImageSharp.fluid} 
-                            />   
-                            <div class="container">
-                            <h4><b>"Mirá la gilada que tenemos que aclarar"</b></h4>
-                            <p></p>
-                        </div>
+                        <a href="https://www.revistamate.com.ar/2019/12/mira-la-gilada-que-tenemos-que-aclarar/">
+                            <div >
+                                <Img style={{ maxHeight: `300px`, marginBottom: `1.45rem` }}
+                                    fluid={data.terraplanismo.childImageSharp.fluid} 
+                                />   
+                            </div>
+                            <div class="container-card">
+                                <h3><b>Mirá la gilada que tenemos que aclarar</b></h3>
+                                <p  style={{ color: `white` }} >Hasta hace unos días, una de las peores cosas que me podía pasar era que alguien de mi circulo íntimo se me declare terraplanista. Lo creía imposible, pero dicen que los sueños se hacen realidad y las pesadillas son sueños. Pasó.</p>
+                            </div>
+                        </a>
+                    </div>                    
+                    
+                    <div class="card">
+                        <a href="https://www.revistamate.com.ar/2019/10/cinco-tiros/">
+                            <div >
+                                <Img style={{ maxHeight: `300px`, marginBottom: `1.45rem` }}
+                                    fluid={data.pichon.childImageSharp.fluid} 
+                                />   
+                            </div>
+                            <div class="container-card">
+                                <h3><b>"Cinco tiros"</b></h3>
+                                <p  style={{ color: `white` }} >Con el 38 corto que me había regalado uno de los muchachos del partido en la mano, escuché el ruido de los borcegos corriendo por el pasillo del hotel. Nunca me gustaron esos zapatos, me parecen pesados y duros.</p>
+                            </div>
+                        </a>
                     </div>
 
+                    <div class="card">
+                        <a href="https://revistamate.wordpress.com/2019/05/20/guia-de-supervivencia-para-ensenar-idiomas-si-nunca-ensenaste-nada/">
+                            <div >
+                                <Img style={{ maxHeight: `300px`, marginBottom: `1.45rem` }}
+                                    fluid={data.pescado.childImageSharp.fluid} 
+                                />   
+                            </div>
+                            <div class="container-card">
+                                <h3><b>Guía de supervivencia para enseñar idiomas (si nunca enseñaste nada)</b></h3>
+                                <p  style={{ color: `white` }} >En enero de 2018 me tiré de cabeza a irme a un intercambio cultural en el que tenía que enseñar español. Me dije a mi mismo “¿qué tan difícil puede ser si hablo español desde que nací?”. Spoiler: no sabía nada de español, mucho menos de enseñar algo.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    {/* <div class="card">
+                        <a href="">
+                            <div >
+                                <Img style={{ maxHeight: `300px`, marginBottom: `1.45rem` }}
+                                    fluid={data.pichon.childImageSharp.fluid} 
+                                />   
+                            </div>
+                            <div class="container-card">
+                                <h3><b></b></h3>
+                                <p  style={{ color: `white` }} ></p>
+                            </div>
+                        </a>
+                    </div> */}
 
                     {/* <Link to="/page-2/">Go to page 2</Link> */}
                 </div>

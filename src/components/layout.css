@@ -39,14 +39,17 @@
 
 
 .card {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 #f56bff;
+  border: 3px solid #f56bff;
+  /* box-shadow: 0 4px 8px 0 #f56bff; */
   transition: 0.3s;
+  margin-bottom: 1.45em;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
+  border-color: #f56bff;
   box-shadow: 0 8px 16px 0 #f56bff;
 }
 
