@@ -69,7 +69,9 @@ function SEO({ description, lang, meta, title }) {
         },
       ]
       .concat(meta)}
-    />
+    >
+      <link rel="icon" type="image/png" href="images/fechesinfondo.ico"/>
+    </Helmet>
   )
 }
 
