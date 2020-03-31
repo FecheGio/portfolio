@@ -14,7 +14,7 @@ const SecondPage = () => (
         <p>Es mi proyecto personal donde escribo para quien quiera leer. Se trata de newsletter mensual, donde todos los 29 envio una pieza literaria. Puede ser un relato, un cuento, poesía, no sé. Depende de la inspiración del momento y de lo que quiera y me salga escribir. Los textos no suelen ser largos, entre 700 y 1500 palabras. Arrancó el 29 de febrero del 2020 y podés leer la última entrega <a href="https://us5.campaign-archive.com/?u=15e956080a41f301c18b679b9&id=ee8a5c9fcd">acá</a>.</p>
 
         <h3>¿Por qué "El Juglar"?</h3>
-        <p>Un juglar era un personaje la edad media que viajaba por las ciudades e iba por las calles y tabernas contando historias, recitando poesía y cantando canciones sobre las hazañas de los caballeros y héroes de la época. Retomando la figura del juglar, asumo el rol de un juglar moderno y todos los meses me aparezco por tu mail contando historias.</p>
+        <p>Un juglar era un personaje de la edad media que viajaba por las ciudades e iba por las calles y tabernas contando historias, recitando poesía y cantando canciones sobre las hazañas de los caballeros y héroes de la época. Retomando la figura del juglar, asumo el rol de un juglar moderno y todos los meses me aparezco por tu mail contando historias.</p>
 
         <h3>¿Dónde me suscribo?</h3>
         <a href="https://gmail.us5.list-manage.com/subscribe?u=15e956080a41f301c18b679b9&id=8bb8acd106" class="button">SUSCRIBITE</a>
