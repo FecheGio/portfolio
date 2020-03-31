@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Fede Giobergia - Comunicador y redactor freelancer`,
-    description: `Soy Fede, soy comunicador y redactor freelancer. Hasta tengo mi propio newsletter.`,
+    description: `Soy Fede, soy comunicador y redactor freelancer. Hasta tengo mi propio newsletter`,
     author: `@FecheGio`,
-    image: '/images/fechesinfondo.jpg',
+    image: '/images/fechesinfondo.png',
   },
   plugins: [
     {
