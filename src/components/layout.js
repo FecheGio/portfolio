@@ -37,7 +37,9 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer class="container">
           © {new Date().getFullYear()}, Built with
-          {` ❤️ and 🧉 by Fede`}
+          {` ❤️ and `} 
+          <img class="emoji-trucho" src="https://abs.twimg.com/emoji/v2/svg/1f9c9.svg" />
+          {` by Fede`}
         </footer>
       </div>
     </>
