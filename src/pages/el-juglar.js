@@ -27,8 +27,7 @@ const SecondPage = () => (
         <p>Hacer El Juglar me toma varias horas semanales, varios mates y varios cafés. Lo hago por amor al arte, por eso, si queres, podés invitarme un café. O un par.</p>
         <a href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=166424093-ee96fa77-29ae-4dfe-ba8f-bd6f13b35302" class="button">1 CAFÉ</a>
         <a href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=166424093-539763c8-667c-426c-bd5c-8e451d60bcaf" class="button">2 CAFÉS</a>
-
-
+        <a href="https://www.buymeacoffee.com/fedegio" class="button">CAFÉ INTERNACIONAL</a>
 
         {/* <Link to="/page-2/">Go to page 2</Link> */}
       </div>
