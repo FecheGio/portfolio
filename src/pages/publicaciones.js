@@ -49,7 +49,7 @@ const PublicationsPage = () => {
                     <h3>Mis publicaciones en distintos medios:</h3>
 
                     <div class="card">
-                        <a href="https://revistamate.wordpress.com/2019/05/20/guia-de-supervivencia-para-ensenar-idiomas-si-nunca-ensenaste-nada/">
+                        <a href="http://fueradepagina.com.ar/the-uncensored-library-romper-la-realidad-para-lograr-un-periodismo-libre/">
                             <div >
                                 <Img style={{ maxHeight: `300px`, marginBottom: `1.45rem` }}
                                     fluid={data.minecraft.childImageSharp.fluid} 
