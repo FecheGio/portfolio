@@ -29,6 +29,13 @@ const PublicationsPage = () => {
                   }
                 }
             }
+            minecraft: file(relativePath: { eq: "01_Uncensored_Library_island2.jpg" }) {
+                childImageSharp {
+                  fluid(maxWidth: 1000) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+            }
         }
     `)
     return(
@@ -40,6 +47,20 @@ const PublicationsPage = () => {
                     <h1> <span class="highlight">PUBLICACIONES</span></h1>
 
                     <h3>Mis publicaciones en distintos medios:</h3>
+
+                    <div class="card">
+                        <a href="https://revistamate.wordpress.com/2019/05/20/guia-de-supervivencia-para-ensenar-idiomas-si-nunca-ensenaste-nada/">
+                            <div >
+                                <Img style={{ maxHeight: `300px`, marginBottom: `1.45rem` }}
+                                    fluid={data.minecraft.childImageSharp.fluid} 
+                                />   
+                            </div>
+                            <div class="container-card">
+                                <h3><b>The Uncensored Library: romper la realidad para lograr un periodismo libre</b></h3>
+                                <p  style={{ color: `white` }} >El acceso libre a la información es un privilegio del que no gozan todos los países. En algunos los diarios, los medios independientes, los blogs y redes sociales están completamente bloqueados o prohibidos. En otros casos más extremos, los periodistas son perseguidos y tienen que trabajar de manera clandestina o someterse a escribir lo que los estados quieran.</p>
+                            </div>
+                        </a>
+                    </div>
 
                     <div class="card">
                         <a href="https://www.revistamate.com.ar/2019/12/mira-la-gilada-que-tenemos-que-aclarar/">
